@@ -21,7 +21,7 @@ The core principles of PromptGPT:
 ## Settings
 - Simple, zero configuration required.
 - Option to add new Prompt programs or edit existing ones manually.
-- Safety: Define exit criteria. For example trigger automatic exit for forbidden tasks / roles or exceeding token limits.
+- Safety & Steerability. For example trigger automatic exit for forbidden tasks / roles or exceeding token limits.
 
 ## Resources
 - External memory, APIs.
