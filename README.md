@@ -6,42 +6,26 @@ PromptGPT is a systematic approach for creating [autonomous agents](https://en.w
 
 ## Core principles
 
-The core principles of PromptGPT are simple:
-- Autonomous, self-supportive & objective-agnostic workflows.
-- Versatile, generic functions submit API calls to GPT models.
-- Define scope, objective and checkpoints (exit criteria) only once.
-- Centralize pre-defined settings under Control panel: user/system-instructions, models, context lengths and resources.
-- Option to learn additional capabilities autonomously.
-- User-interface agnostic: Jupyter Notebooks, Streamlit-chatbots, Flask-apps, etc. Support embedded experiences.
+The core principles of PromptGPT:
+- Autonomous workflows: Objective-agnostic, self-learning & self-supportive.
+- Simplicity: Prompt Programs are defined only once. 
+- User interface agnostic or Embedded experience: Jupyter notebooks, Chatbots & Voice assistants.
+- Safety: Settings & Exit criteria.
 
-## Functions
-- All functions are versatile and generic.
-- For example an API call to LLM uses only single, generic function. 
-- Functions enable repeating steps, such as saving data to memory, using resources and retrieving task description and role.
+## Prompt Programs
+- The LLM API call is made always using single function.
+- Prompts are versatile: High-level cognitive tasks are pre-programmed, but low-level tasks get automatically roles, task and resources.
+- Overall system remains simplistic even in complex workflows.
+- Takes advantages of external resources: API calls, memory etc.
 
-## Control panel
-- Simple with zero configuration required.
-- Option to add new functions automatically or modify them manually.
-
-## Plans
-- PromptGPT automatically generates workflow plan and components.
-- Workflow components are managed autonomously.
-- Workflow components include task: definition, role, resources and status.
+## Settings
+- Simple, zero configuration required.
+- Option to add new Prompt programs or edit existing ones manually.
+- Safety: Define exit criteria. For example trigger automatic exit for forbidden tasks / roles or exceeding token limits.
 
 ## Resources
-- Resources include workflows and data performed stored outside the Prompt-GPT flow.
-- Resource types include internal memory, API calls.
-- New resource types are supported. 
-
-## Checkpoints
-- An optional, structured method for steerability, safety and exit criteria.
-- Define exit criteria: limit token consumption, forbid specific behaviour and increase steerability. 
-- For example, specific types of roles / tasks trigger the flow to automatically exit.
-
-## User-Interface vs. Embedded Experiences
-- The first release uses Jupyter Notebook as the user-interface and the idea is to extend the code to wide variety of user interfaces: voice, chat etc. 
-- PromptGPT works behind the scenes, where another action may trigger the flow to begin, progress and/or complete.
-
+- External memory, APIs.
+- Self-discover new resources.
 
 ## Contributing
 PromptGPT is an open source project, where anybody can contribute for external appreciation. Build on top by forking the current version of the repository, make changes to your forked version and then open a pull request to the main repository with the updated version. [How to contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
