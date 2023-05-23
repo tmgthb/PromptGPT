@@ -12,12 +12,12 @@
 
 *Could a Large Language Model (LLM) handle the role of Prompt engineer?*
 
-PromptGPT is a systematic approach for creating [autonomous agents](https://en.wikipedia.org/wiki/Autonomous_agent) with [Large Language Models (LLMs)](https://en.wikipedia.org/wiki/Large_language_model) with models such as [GPT-4](https://arxiv.org/abs/2303.08774), ChatGPT 3.5-turbo, Antropic or similar fine-tuned LLM with [Reinforcement Learning with Human Feedback (RLHF)](https://arxiv.org/abs/2203.02155). 
+PromptGPT is a systematic approach for creating [autonomous agents](https://en.wikipedia.org/wiki/Autonomous_agent) with [Large Language Models (LLMs)](https://en.wikipedia.org/wiki/Large_language_model) with models such as [GPT-4](https://arxiv.org/abs/2303.08774), ChatGPT 3.5-turbo, Antropic or similar fine-tuned LLM with [Reinforcement Learning with Human Feedback (RLHF)](https://arxiv.org/abs/2203.02155).
 
 ## Core principles
 
 The core principles of PromptGPT:
-- Autonomous workflows: Objective-agnostic, self-learning & self-supportive.
+- Autonomous workflows: Objective-agnostic, self-learning & self-supportive within its task.
 - Simplicity: Prompt Programs are defined only once. 
 - User interface agnostic or Embedded experience: Jupyter notebooks, Chatbots & Voice assistants.
 - Safety: Settings & Exit criteria.
